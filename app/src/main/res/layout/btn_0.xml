@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="QR сканер."
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/textqr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:editable="true"
+        android:text=""
+        android:textSize="17dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textqr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Сканировать" />
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignEnd="@+id/scan_btn"-->
+        <!--android:layout_alignRight="@+id/scan_btn"-->
+        <!--android:layout_below="@+id/scan_btn"-->
+        <!--android:layout_marginTop="21dp"-->
+        <!--android:text="QR генератор"-->
+        <!--android:textSize="17dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/textView3"-->
+        <!--android:layout_marginTop="18dp"-->
+        <!--android:hint="Введите необходимый текст" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/gen_btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignEnd="@+id/textView3"-->
+        <!--android:layout_alignRight="@+id/textView3"-->
+        <!--android:layout_below="@+id/editText"-->
+        <!--android:backgroundTint="@color/colorPrimary"-->
+        <!--android:text="Генерировать" />-->
+<!--<view-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:layout_marginTop="360dp"-->
+    <!--android:id="@+id/qn"-->
+    <!--android:background="@android:color/black"></view>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="250dp"-->
+        <!--android:layout_below="@id/qn">-->
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/image_gen"/>-->
+
+    <!--</LinearLayout>-->
+</RelativeLayout>
